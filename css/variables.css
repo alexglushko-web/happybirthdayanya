@@ -1,0 +1,10 @@
+:root
+{
+    --green-color: #a6f400;
+    --blue-color: #005db4;
+    --red-color: #f00;
+    --black-color: #1c1c1c;
+}
+@supports (-webkit-appearance:none)
+{
+}
