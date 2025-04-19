@@ -3,7 +3,15 @@ window.addEventListener('load', ()=> {
     $('.slider').slick({
         slidesToShow: 1,
         dots: false,
-        arrows: false,infinite: false,
+        arrows: false,
+        infinite: false,
+        accessibility: false,
+        autoplay: false, 
+        draggable: false,      // Отключить перетаскивание мышью
+        swipe: false,          // Отключить свайп на мобильных устройствах
+        touchMove: false,      // Отключить перетаскивание касанием
+        focusOnSelect: false, // Отключить переход по клику на слайд
+        accessibility: false   // Отключить навигацию с клавиатуры (по желанию)
     })
     
     $('.next').on('click', function() {
